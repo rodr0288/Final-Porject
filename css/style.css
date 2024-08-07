@@ -1,0 +1,648 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+html {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Judson", serif;
+    font-weight:bolder;
+    color:#77336C;
+    text-align:center;
+    font-size: 2.027rem;
+    padding: 20px;
+}
+
+h2 {
+    color:#717171;
+    font-size: 1.802rem;
+    font-family: "Judson", serif;
+    font-weight:bold;
+    line-height: 1.1;
+    padding-bottom: 1em;
+
+    
+}
+
+h3 {
+    color:#77336C;
+    font-size: 1.424;
+    font-family: "Montserrat", sans-serif;
+    font-weight:normal;
+    padding: 10px;
+    
+}
+
+h4 {
+    font-family: "Judson", serif;
+
+}
+
+p{
+    color: #888888;
+    font-style: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+header {
+    text-align:left;
+    padding: 0;
+    align-items: center;
+    color: #f3f0e9;
+    
+
+    
+}
+.container2 {
+    background-color: #ffffff;
+    padding: 3em;
+        }
+
+
+    .container-hero{
+    
+    height: 50vh;
+        }  
+
+.container-hero h1 {
+color: #ffffff;
+font-family: "Judson", serif;
+font-weight: 50;
+font-style: regular;
+padding-left: 2em;
+padding-right: 2em;
+line-height: 1.2;
+
+}  
+.container-hero img {
+width: 60%;
+
+
+    
+    }  
+
+.container {
+    margin: 0;
+    
+    
+}
+.container-hero{
+
+    background-image: url(../images/hero.png); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    align-content: center;
+    padding: 1em;
+    
+}
+
+
+    .icon-movile{
+        width: 50px;
+    }
+
+    .logo-desktop{
+        display: none;
+    }
+
+    .navbar{
+        color: #f3f0e9;
+        background:linear-gradient(#77336C, #914583);
+        padding: 0;
+        margin: 0;
+    }
+
+.navbar-nav{
+    font-family: "Montserrat", sans-serif;
+    color: #f3f0e9;
+
+}
+.nav-link li:hover{
+    font-family: "Montserrat", sans-serif;
+    background-color: #33B7B7;
+
+}
+
+.clearfix{
+    padding: 1em;
+}
+
+.button1 {  
+    font-family: "Montserrat", sans-serif;
+    color: #f3f0e9;
+    font-size: 1.1em;
+    background-color: #77336C;
+    padding: .5em;
+    border-radius: 5%;
+    width: 150px;
+    border: 0;
+    align-self: center;
+}
+.button2 {  
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 1.1em;
+    background-color:#33B7B7;
+    padding: .5em;
+    border-radius: 5%;
+    width: 150px;
+    border: 0;
+    align-self: center;
+}
+.container3 {
+    margin-left: 1em;
+    margin-right: 1em;
+    
+                }  
+.logos {
+margin: 2em;
+            }            
+.graphic2 h2 {
+    color: #7a7a7a;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2em;
+    font-size: 1.424;
+
+    }  
+
+.graphic2{
+    
+    padding:1em;
+    padding-bottom:4em;
+        }                 
+    
+    .graphic2 img{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        }                
+
+    .footer{
+    background-color: #77336C;
+    padding-left: 30%;
+    height: 5em;
+
+}
+    
+
+.footer img{
+    padding: 0;
+    width:50%;
+
+    }
+
+
+/* portfolio */
+
+.container-hero-port{
+    background-image: url(../images/hero-portfolio\ .png); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.d-flex-port h1 {
+    color: #ffffff;
+    font-family: "Judson", serif;
+    font-weight: 50;
+    font-style: regular;
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 1;
+    
+}
+.d-flex-port img {
+    width: 60%;
+    
+}
+
+.container-branding{
+    padding: .5em;
+
+    
+}
+.container-graphic img{
+    width: 100%;
+
+    
+}
+
+.table-brand{
+    margin-left: 4em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 12em;
+    color: #888888;
+    font-style: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-branding{
+    background-color: #e4e4e4;
+
+}
+
+/* services */
+
+.container-hero-serv{
+    background-image: url(../images/hero-services.png); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    align-content: center;
+    padding: 1em;
+
+}
+.container-branding .button1{
+    margin: 0;
+
+
+}
+
+
+.container-branding {
+    padding: 2em;
+    margin: 0;
+    background-color: #e4e4e4;
+    
+    }
+
+
+/* tablet */
+
+@media (min-width: 768px) {
+    body {
+    font-size: 18px;
+    }
+
+
+.container-hero{
+padding: 1em;
+    
+}
+.clearfix{
+    padding: 2em;
+}
+
+.icon-movile {
+    width: 50px;
+
+}
+
+.logo-desktop {
+    display: none;
+}
+
+
+.container-graphic{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.container3{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+
+
+.graphic2{
+padding: 0;
+padding-bottom: 3em;
+}
+.graphic2 img{
+    width: 100%;
+    }
+    
+.table-port t
+
+
+.footer img{
+    padding-left: 3em;
+    width:40%;
+}
+
+
+/* portfolio */
+
+
+
+.d-flex-port h1 {
+
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 0;
+
+}
+.d-flex-port img {
+    width: 30%;  
+    padding: 0;  
+}
+
+.container-graphic{
+    margin: 0;
+}
+
+.corporative-branding{
+    width: 100%;
+padding-bottom: 1em;
+padding-top: 1em;
+padding-left: 10%
+
+}
+
+.corporative-branding img{
+    width: 100%;
+
+
+}
+
+.container-branding{
+    padding: 1em;
+}
+.col-text{
+    padding-bottom: 3em;
+    padding-top: 3em;
+    width: 100%;
+}
+.col-img{
+    width: 100%;
+    padding: 0;
+}
+
+.table-port {
+    margin-right:20% ;
+    margin-top: 5em;
+    
+}
+
+
+.table-port td{
+    margin-left: 4em;
+    color: #7a7a7a;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10%;
+}
+.footer img{
+    padding-left: 3em;
+    width:40%;
+}
+ 
+
+/* services*/
+
+.content-web img{
+    width: 100%;
+
+}
+.content-web{
+    padding: 3em;
+}
+
+
+    .container-web-services{
+        padding: 3em;
+    }
+
+    .table-brand{
+        background-color: #e4e4e4;
+        width: 100%;
+        margin-left:60% ;
+        margin-top: 2em;
+        
+    }
+
+    }
+
+.container-web-services img{
+    width: 100%;
+    padding: 1em;
+}
+
+.container-branding .button1{
+    margin-left: 40%;
+}
+
+/* desktop*/
+
+@media (min-width: 1200px) {
+    body {
+    font-size: 1.25rem; 
+    }
+
+.d-flex h1 {
+    color: #ffffff;
+    
+    line-height:1em;
+
+}
+
+.d-flex img {
+    width: 20%;
+        
+        }  
+
+.logo-desktop {
+    display: inline-block;
+    width: 20%;
+    padding: 0;
+}
+
+.icon-movile {
+    display: none;
+}
+
+.graphic {
+    padding: 1em;
+}
+.graphic p {
+    padding-top: 3em;
+    
+}
+
+.graphic img{
+width: 90%;
+padding-left: 30%;
+padding-top: 10%;
+    
+    
+}
+.container3{
+    padding: 3em;
+
+    
+}
+.graphic2{
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-bottom: 6em;
+}
+.graphic2 img{
+    width: 40%;
+}
+.footer{
+    padding-left: 40%;
+    height: 6em;
+    
+    
+}
+
+.footer img{
+    padding: 0;
+    width:20%;
+    
+}
+
+/* portfolio */
+
+.d-flex h1 {
+    color: #ffffff;
+    line-height:1em;
+
+}
+
+.container-hero-port img {
+    width: 20%;
+    
+
+}
+
+.content-branding{
+padding: 3em;
+}
+.content-branding {
+    width: 100%;
+    }
+
+.container-graphic{
+    width: 100%;
+
+}
+.container-graphic img{
+
+width: 100%;
+
+}
+.table-port td{
+    margin: 0;
+    color: #7a7a7a;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 10%;
+}
+
+.corporative-branding{
+    width: 100%;
+padding-bottom: 3em;
+padding-top: 3em;
+padding-left: 20%
+
+}
+
+
+
+.table-port img{
+    width: 100%;
+    
+
+}
+.corporative-branding img{
+    
+    width: 100%;
+
+}
+/* services */
+
+
+.container-hero-serv img{
+    width: 20%;
+}
+
+.container-branding img{
+    width: 90%;
+}
+.container-branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+}  
+
+.container-branding .button1{
+margin-top: 20px;
+margin-left: 45%;
+
+}  
+
+.container-branding .row {
+    text-align: center; 
+
+}  
+.container-web-services img{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.container-web-services{
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+}
